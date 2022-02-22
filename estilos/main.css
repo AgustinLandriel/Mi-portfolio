@@ -1,0 +1,495 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&family=Nunito:wght@200;400;700&family=Ubuntu:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.borde-black:hover {
+  border-bottom: 3px solid #222;
+}
+
+.borde-black:hover {
+  border-bottom: 3px solid #222;
+}
+
+.hero {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #222;
+  margin-top: 5rem;
+  height: 100vh;
+}
+
+.hero h6 {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 8rem;
+  letter-spacing: 2.5px;
+}
+
+.hero__title {
+  font-family: "Ubuntu";
+  color: #ffffff;
+  margin-left: 8rem;
+  margin-bottom: 2rem;
+  font-size: 4rem;
+  text-shadow: 3px 3px 5px #000;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.hero__description {
+  font-family: "Lato";
+  margin-left: 7rem;
+  max-width: 700px;
+  color: #ffffff;
+}
+
+.hero__btn {
+  margin-left: 10rem;
+  margin-top: 2rem;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #222;
+  text-shadow: 0px 0px 1px #ffffff;
+  border: 2px solid crimson;
+  padding: 10px;
+  -webkit-box-shadow: 4px 4px 5px #000;
+          box-shadow: 4px 4px 5px #000;
+}
+
+.hero__btn:hover {
+  background-color: crimson;
+  color: #ffffff;
+  text-shadow: 3px 3px 5px #000;
+  border: none;
+}
+
+.hero__span {
+  color: crimson;
+}
+
+.hero__img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20rem;
+  -webkit-box-shadow: 10px 5px 5px #000;
+          box-shadow: 10px 5px 5px #000;
+}
+
+.hero__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 55%;
+  top: 80%;
+}
+
+.hero__redes i {
+  font-size: 2.5rem;
+  margin: 1rem;
+  color: crimson;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.hero__redes i:hover {
+  color: #ffffff;
+  -webkit-transform: scale(1.3, 1.3);
+          transform: scale(1.3, 1.3);
+}
+
+.header h2 {
+  font-family: "Ubuntu";
+  font-weight: 400;
+  text-shadow: 0px 0px 1px #000;
+  font-size: 2.5rem;
+}
+
+.header h2 span {
+  color: white;
+  text-shadow: 2px 2px 3px #000;
+}
+
+.navbar-text {
+  color: #222 !important;
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  font-weight: 400;
+  font-family: "Nunito";
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.062);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.navbar-text:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.navbar {
+  background-color: crimson;
+}
+
+.navbar__span {
+  color: #ffffff;
+}
+
+.display-3 {
+  font-size: 3rem;
+  font-family: "Ubuntu";
+  font-weight: 300;
+}
+
+.information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 110vh;
+}
+
+.information__subtitle {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.information .divisor {
+  height: 6px;
+  width: 90px;
+  background-color: crimson;
+}
+
+.information__parrafo {
+  width: 700px;
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+  padding: 1rem 2rem;
+}
+
+.information__span {
+  color: #000;
+}
+
+.information h3 {
+  font-family: "Lato";
+  font-weight: 600;
+  color: crimson;
+  padding: 0rem 2rem;
+}
+
+.proyectos {
+  height: 150vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #222;
+}
+
+.proyectos__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.proyectos__title {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  margin: 3rem;
+  color: #ffffff;
+}
+
+.proyectos__divisor {
+  position: absolute;
+  height: 6px;
+  width: 60px;
+  background-color: crimson;
+  top: 75%;
+  left: 42%;
+}
+
+.proyectos .card-text {
+  color: #ffffff;
+  font-family: "Lato";
+  font-weight: 400;
+  text-shadow: 3px 3px 5px #222;
+  line-height: 2rem;
+}
+
+.proyectos .card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.proyectos .card-footer h3 {
+  color: crimson;
+  font-family: "Ubuntu";
+  text-shadow: 1px 1px 1px #222;
+}
+
+.proyectos .card-borde {
+  background-color: #000;
+  border: 2px inset crimson;
+  border-radius: 3px;
+  -webkit-box-shadow: 10px 12px 7px #000;
+          box-shadow: 10px 12px 7px #000;
+}
+
+.proyectos i {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 2rem;
+  color: #ffffff;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.proyectos i:hover {
+  -webkit-transform: scale(1.4, 1.4);
+          transform: scale(1.4, 1.4);
+}
+
+.proyectos .card-contenedor {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../assets/playhard.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/playhard.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.proyectos .card-img {
+  opacity: 0.5;
+}
+
+.proyectos .card-img-titulo {
+  color: #ffffff;
+  font-family: "Lato";
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-shadow: 8px 8px 5px #000;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.proyectos .card-img-titulo:hover {
+  font-size: 2rem;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.proyectos .card-repositorio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+  margin-top: 2rem;
+}
+
+.proyectos .card-repositorio button {
+  background-color: #222;
+  border: none;
+  border-bottom: 3px solid crimson;
+  padding: 10px;
+  color: #ffffff;
+  text-shadow: 3px 3px 5px #000;
+}
+
+.proyectos .card-repositorio button:hover {
+  background-color: #ffffff;
+  border-bottom: 3px solid crimson;
+  color: #222;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100vh;
+}
+
+.skills__subtitle {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.skills__divisor {
+  height: 6px;
+  width: 60px;
+  background-color: crimson;
+}
+
+.skills .conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 7rem;
+}
+
+.skills .conteiner i {
+  font-size: 5rem;
+  margin: 0rem 1.3rem;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.skills .conteiner i:hover {
+  -webkit-transform: scale(1.6);
+          transform: scale(1.6);
+}
+
+.skills .conteiner em {
+  margin-top: 1rem;
+  font-size: 3rem;
+  -webkit-transform: transform 1s;
+          transform: transform 1s;
+}
+
+.footer {
+  background-color: #000;
+  padding: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer__span {
+  color: crimson;
+}
+
+.footer i {
+  font-size: 2rem;
+  color: crimson;
+}
+
+.footer h2 {
+  font-size: 3.5rem;
+  color: #ffffff;
+  margin-top: 2rem;
+}
+
+.footer__contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__contacto h5 {
+  color: #ffffff;
+  margin: 10px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer__contacto p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-family: "Lato";
+  font-weight: 600;
+}
+
+.footer__contacto span {
+  color: crimson;
+  font-family: "Nunito";
+}
+
+.footer__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__redes i {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+  color: #ffffff;
+  border: 2px solid crimson;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.footer__redes i:hover {
+  color: crimson;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+/*# sourceMappingURL=main.css.map */

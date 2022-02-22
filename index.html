@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/c0b54c4a55.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/al-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./estilos/main.css" />
+    <title>Agustin Landriel</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-3 display-3" href="#"
+            >A<span class="navbar__span">L</span>
+            <h2 class="d-inline mx-3">Portfo<span>lio</span></h2></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav mx-5">
+              <a class="borde-black navbar-text" href="#">Home</a>
+
+              <li class="nav-item">
+                <a class="nav-link borde-black navbar-text" href="#info"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link borde-black navbar-text" href="#habilidades"
+                  >Skills</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link borde-black navbar-text" href="#proyecto"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link borde-black navbar-text" href="#contacto"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ------------------------HERO------------------ -->
+
+      <section class="hero">
+        <div data-aos="fade-right" data-aos-duration="2000">
+          <h6>Hola,</h6>
+          <h1 class="hero__title">
+            Soy <span class="hero__span">Agustin Landriel</span>
+          </h1>
+          <h3 class="hero__description">
+            Estudiante de Licenciatura en Informática y Desarrollador Front-End
+            apasionado por la programación buscando nuevos desafios.
+          </h3>
+          <a
+            href="../../Documents/CV - Agustin Leonel Landriel.pdf"
+            download="CV-Agustin-Landriel.pdf"
+            ><button class="hero__btn">Download CV</button></a
+          >
+        </div>
+        <div data-aos="zoom-in" data-aos-duration="2000">
+          <img class="hero__img" src="./assets/perfil.jpg" alt="Foto Agustin" />
+        </div>
+
+        <div class="hero__redes" data-aos="zoom-in" data-aos-duration="3000">
+          <div>
+            <a href="https://linkedin.com/in/agustin-landriel" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+          <div>
+            <a href="https://github.com/AgustinLandriel" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------------------About------------------ -->
+
+      <section>
+        <div
+          class="information"
+          id="info"
+          data-aos="fade-right"
+          data-aos-duration="2500"
+        >
+          <div>
+            <h2 class="information__subtitle">Acerca de mi</h2>
+            <div class="divisor"></div>
+          </div>
+          <div>
+            <h3>
+              <span class="information__span">Estudiante universitario</span> &
+              Desarrollador Front-End
+            </h3>
+
+            <p class="information__parrafo">
+              Comenzé en el área IT como Help Desk y actualmente estoy
+              formandome como Programador Web especialmente en Front-End.Me
+              considero responsable y muy autodidacta,siempre busco aprender
+              cosas nuevas para que me permitan crecer como profesional. Además
+              de capacitarme por mi cuenta y en academias de estudio me
+              encuentro realizando la Licenciatura de Informática en la
+              Universidad Nacional de Quilmes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- -------------SKILSS---------------- -->
+
+      <section>
+        <div
+          class="skills"
+          id="habilidades"
+          data-aos="fade-down"
+          data-aos-duration="3000"
+        >
+          <div>
+            <h2 class="skills__subtitle">Conocimientos</h2>
+            <div class="skills__divisor"></div>
+          </div>
+          <div class="conteiner">
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <i class="fa-brands fa-sass"></i>
+            <i class="fa-brands fa-bootstrap"></i>
+            <!-- <i class="fa-brands fa-js"></i> -->
+            <em class="fa-solid fa-s fa-q fa-l"> </em>
+            <em class="fa-solid fa-q"></em>
+            <em class="fa-solid fa-l"></em>
+            <i class="fa-brands fa-linux"></i>
+            <i class="fa-brands fa-git"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-solid fa-c"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------PROYECTOS------------- -->
+
+      <section class="proyectos" id="proyecto" >
+        <div class="proyectos__contenedor">
+          <h2 class="proyectos__title">Proyectos</h2>
+          <div class="proyectos__divisor"></div>
+        </div>
+
+        <div class="container my-5 " data-aos="fade-right" data-aos-duration="2000"">
+          <div class="row">
+            <!-- ------------------------CARD 1------------------>
+
+            <div class="col-5 offset-1" data-aos="flip-up" data-aos-duration="1500">
+              <div class="card card-borde p-3" style="width: 22rem">
+                <div class="card-contenedor">
+                  <a href="https://playhardinformatica.vercel.app/">
+                    <h3 class="card-img-titulo">Playhard Informática</h3>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <div class="card-footer">
+                    <h3>Tecnologías usadas</h3>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-sass"></i>
+                    <i class="fa-brands fa-bootstrap"></i>
+                  </div>
+                  <p class="card-text mt-3">
+                    Primer proyecto personal realizado que es una web estática
+                    orientada a una tienda informática.
+                  </p>
+
+                  <div class="card-repositorio">
+                    <a
+                      class="mt-1"
+                      href="https://github.com/AgustinLandriel/PlayhardInformatica.git"
+                    >
+                      <button>Repositorio</button></a
+                    >
+                    <i class="fa-brands fa-github"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- -------------------CARD 2---------------------- -->
+            <div class="col-5 offset-1" data-aos="flip-up"data-aos-duration="1500">
+              <div class="card card-borde p-3" style="width: 22rem">
+                <div style="position: relative">
+                  <a
+                    href="https://github.com/AgustinLandriel/Juego-Bingo.git"
+                    target="_blank"
+                  >
+                    <img
+                      src="./assets/lenguaje.jpg"
+                      alt=""
+                      style="height: 200px; width: 300px; opacity: 0.5"
+                    />
+                  </a>
+
+                  <a
+                    href="https://github.com/AgustinLandriel/Juego-Bingo.git"
+                    target="_blank"
+                  >
+                    <h3 class="card-img-titulo">Bingo</h3>
+                  </a>
+                </div>
+                <div class="card-body">
+                  <div class="card-footer">
+                    <h3>Tecnologías usadas</h3>
+                    <i class="fa-brands fa-c m-1 mt-2"></i>
+                  </div>
+                  <p class="card-text mt-3">
+                    Proyecto de Bingo mediante consola hecho para el trabajo
+                    final de la materia Programacion 1 de la Universidad.
+                  </p>
+
+                  <div class="card-repositorio">
+                    <a
+                      class="mt-1"
+                      href="https://github.com/AgustinLandriel/Juego-Bingo.git"
+                      target="_blank"
+                    >
+                      <button>Repositorio</button></a
+                    >
+                    <i class="fa-brands fa-github"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contacto">
+      <h2 data-aos="zoom-out-right" data-aos-duration="2000">
+        <i class="fa-solid fa-code mx-3"></i>Agustin
+        <span class="footer__span">Landriel</span>
+      </h2>
+
+      <div class="footer__contacto" data-aos="zoom-out-right" data-aos-duration="2000">
+        <h5>Contacto</h5>
+        <i class="fa-solid fa-arrow-right mx-3"></i>
+        <div class="mt-3">
+          <p>al.landriel20<span>@gmail.com</span></p>
+        </div>
+      </div>
+
+      <div class="footer__redes">
+        <div>
+          <a href="https://linkedin.com/in/agustin-landriel" target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <div>
+          <a href="https://github.com/AgustinLandriel" target="_blank"
+            ><i class="fa-brands fa-github mt-3"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    AOS.init(
+      // {once:false}
+    );
+  </script>
+</html>

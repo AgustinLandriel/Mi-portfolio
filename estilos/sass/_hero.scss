@@ -1,0 +1,81 @@
+@import "./variables";
+@import "./colores";
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  background-color: $black2;
+  margin-top: 5rem;
+  height: 100vh;
+
+  & h6 {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 8rem;
+    letter-spacing: 2.5px;
+  }
+  &__title {
+    font-family: "Ubuntu";
+    color: $white;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    text-shadow: 3px 3px 5px $black;
+    width: max-content;
+  }
+
+  &__description {
+    font-family: "Lato";
+    margin-left: 7rem;
+    max-width: 700px;
+    color: $white;
+  }
+
+  &__btn {
+    margin-left: 10rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    color: $white;
+    background-color: $black2;
+    text-shadow: 0px 0px 1px $white;
+    border: 2px solid $rojo;
+    padding: 10px;
+    box-shadow: 4px 4px 5px $black;
+    &:hover {
+      background-color: $rojo;
+      color: $white;
+      text-shadow: 3px 3px 5px $black;
+      border: none;
+    }
+  }
+  &__span {
+    color: $rojo;
+  }
+
+  &__img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20rem;
+    box-shadow: 10px 5px 5px $black;
+  }
+
+  &__redes {
+    display: flex;
+    position: absolute;
+    left: 55%;
+    top: 80%;
+
+    i {
+      font-size: 2.5rem;
+      margin: 1rem;
+      color: $rojo;
+      transition: transform 0.5s;
+      &:hover {
+        color: $white;
+        transform: scale(1.3, 1.3);
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+@import "./variables";
+
+.footer {
+  background-color: $black;
+  padding: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+
+  &__span {
+    color: $rojo;
+  }
+
+  i {
+    font-size: 2rem;
+    color: $rojo;
+  }
+  & h2 {
+    font-size: 3.5rem;
+    color: $white;
+    margin-top: 2rem;
+  }
+
+  &__contacto {
+    display: flex;
+    align-items: center;
+
+    h5 {
+      color: $white;
+      margin: 10px;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: $white;
+      font-size: 1.5rem;
+      font-family: "Lato";
+      font-weight: 600;
+    }
+
+    span {
+      color: $rojo;
+      font-family: "Nunito";
+    }
+  }
+
+  &__redes {
+    display: flex;
+    flex-direction: column;
+
+    & i {
+      transition: transform 1s;
+      color: $white;
+      border: 2px solid $rojo;
+      padding: 10px;
+      border-radius: 30px;
+    }
+    & i:hover {
+      color: $rojo;
+      transform: scale(1.2, 1.2);
+    }
+  }
+}

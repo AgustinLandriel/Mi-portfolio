@@ -1,0 +1,120 @@
+@import "./variables";
+
+.proyectos {
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $black2;
+
+  &__contenedor {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  &__title {
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    margin: 3rem;
+
+    color: $white;
+  }
+
+  &__divisor {
+    position: absolute;
+    height: 6px;
+    width: 60px;
+    background-color: $rojo;
+    top: 75%;
+    left: 42%;
+  }
+
+  .card-text {
+    color: $white;
+    font-family: "Lato";
+    font-weight: 400;
+    text-shadow: 3px 3px 5px $black2;
+    line-height: 2rem;
+  }
+  .card-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    h3 {
+      color: $rojo;
+      font-family: "Ubuntu";
+      text-shadow: 1px 1px 1px #222;
+    }
+  }
+  .card-borde {
+    background-color: #000;
+    border: 2px inset $rojo;
+    border-radius: 3px;
+    box-shadow: 10px 12px 7px $black;
+  }
+
+  i {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    color: $white;
+    transition: transform 1s;
+
+    &:hover {
+      transform: scale(1.4, 1.4);
+    }
+  }
+
+  .card-contenedor {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../assets/playhard.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .card-img {
+    opacity: 0.5;
+
+    &-titulo {
+      color: $white;
+      font-family: "Lato";
+      letter-spacing: 2px;
+      font-weight: 600;
+      text-shadow: 8px 8px 5px $black;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+
+      &:hover {
+        font-size: 2rem;
+        transition: all 0.6s;
+      }
+    }
+  }
+
+  .card-repositorio {
+    display: flex;
+    place-content: center;
+    margin-top: 2rem;
+
+    button {
+      background-color: $black2;
+      border: none;
+      border-bottom: 3px solid $rojo;
+      padding: 10px;
+      color: $white;
+      text-shadow: 3px 3px 5px $black;
+
+      &:hover {
+        background-color: $white;
+        border-bottom: 3px solid $rojo;
+        color: $black2;
+      }
+    }
+  }
+}
