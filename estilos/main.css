@@ -26,6 +26,23 @@
   background-color: #222;
   margin-top: 5rem;
   height: 100vh;
+  width: 100%;
+}
+
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 
 .hero h6 {
@@ -33,6 +50,13 @@
   font-size: 1.5rem;
   margin-left: 8rem;
   letter-spacing: 2.5px;
+}
+
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .hero h6 {
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
 }
 
 .hero__title {
@@ -47,11 +71,25 @@
   width: max-content;
 }
 
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .hero__title {
+    margin: 1rem;
+    font-size: 2.4rem;
+  }
+}
+
 .hero__description {
   font-family: "Lato";
   margin-left: 7rem;
   max-width: 700px;
   color: #ffffff;
+}
+
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .hero__description {
+    margin: 1rem;
+    width: auto;
+  }
 }
 
 .hero__btn {
@@ -65,6 +103,13 @@
   padding: 10px;
   -webkit-box-shadow: 4px 4px 5px #000;
           box-shadow: 4px 4px 5px #000;
+}
+
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .hero__btn {
+    margin-left: 8rem;
+    margin-bottom: 3rem;
+  }
 }
 
 .hero__btn:hover {
@@ -82,8 +127,15 @@
   width: 300px;
   height: 300px;
   border-radius: 20rem;
-  -webkit-box-shadow: 10px 5px 5px #000;
-          box-shadow: 10px 5px 5px #000;
+  -webkit-box-shadow: 10px 15px 5px #000;
+          box-shadow: 10px 15px 5px #000;
+}
+
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .hero__img {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 .hero__redes {
@@ -95,6 +147,13 @@
   top: 80%;
 }
 
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .hero__redes {
+    top: 63%;
+    left: 35%;
+  }
+}
+
 .hero__redes i {
   font-size: 2.5rem;
   margin: 1rem;
@@ -103,6 +162,12 @@
   transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .hero__redes i {
+    font-size: 2rem;
+  }
 }
 
 .hero__redes i:hover {
@@ -170,7 +235,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 110vh;
+  height: 120vh;
+}
+
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .information {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .information__subtitle {
@@ -195,6 +267,12 @@
   padding: 1rem 2rem;
 }
 
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .information__parrafo {
+    width: auto;
+  }
+}
+
 .information__span {
   color: #000;
 }
@@ -207,7 +285,7 @@
 }
 
 .proyectos {
-  height: 150vh;
+  height: 160vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -219,6 +297,12 @@
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #222;
+}
+
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .proyectos {
+    height: 180vh;
+  }
 }
 
 .proyectos__contenedor {
@@ -364,9 +448,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  height: 100vh;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  height: 70vh;
 }
 
 .skills__subtitle {
@@ -382,13 +467,24 @@
   height: 6px;
   width: 60px;
   background-color: crimson;
+  margin-bottom: 5rem;
 }
 
 .skills .conteiner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 7rem;
+}
+
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .skills .conteiner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .skills .conteiner i {
@@ -398,6 +494,12 @@
   transition: -webkit-transform 1s;
   transition: transform 1s;
   transition: transform 1s, -webkit-transform 1s;
+}
+
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .skills .conteiner i {
+    margin-bottom: 2rem;
+  }
 }
 
 .skills .conteiner i:hover {
@@ -421,6 +523,13 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .footer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .footer__span {
@@ -447,11 +556,27 @@
           align-items: center;
 }
 
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .footer__contacto {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__contacto .fa-arrow-right {
+    display: none;
+  }
+}
+
 .footer__contacto h5 {
   color: #ffffff;
   margin: 10px;
   font-size: 2rem;
   margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .footer__contacto h5 {
+    margin-top: 2rem;
+  }
 }
 
 .footer__contacto p {
@@ -476,6 +601,16 @@
           flex-direction: column;
 }
 
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .footer__redes {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 3rem;
+  }
+}
+
 .footer__redes i {
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
@@ -485,6 +620,12 @@
   border: 2px solid crimson;
   padding: 10px;
   border-radius: 30px;
+}
+
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .footer__redes i {
+    margin: 1rem 1rem;
+  }
 }
 
 .footer__redes i:hover {

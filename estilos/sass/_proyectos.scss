@@ -1,11 +1,15 @@
 @import "./variables";
 
 .proyectos {
-  height: 150vh;
+  height: 160vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: $black2;
+
+  @include mobile {
+    height: 180vh;
+  }
 
   &__contenedor {
     display: flex;

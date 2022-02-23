@@ -4,8 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  height: 100vh;
+  justify-content: start;
+  height: 70vh;
 
   &__subtitle {
     align-self: center;
@@ -18,14 +18,23 @@
     height: 6px;
     width: 60px;
     background-color: $rojo;
+    margin-bottom: 5rem;
   }
   .conteiner {
     display: flex;
-    margin-bottom: 7rem;
+
+    @include mobile {
+      flex-wrap: wrap;
+      margin: 1rem;
+      justify-content: center;
+    }
     i {
       font-size: 5rem;
       margin: 0rem 1.3rem;
       transition: transform 1s;
+      @include mobile {
+        margin-bottom: 2rem;
+      }
       &:hover {
         transform: scale(1.6);
       }

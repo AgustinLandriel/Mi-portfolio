@@ -6,6 +6,10 @@
   display: flex;
   justify-content: space-evenly;
 
+  @include mobile {
+    flex-wrap: wrap;
+  }
+
   &__span {
     color: $rojo;
   }
@@ -24,11 +28,22 @@
     display: flex;
     align-items: center;
 
+    @include mobile {
+      flex-wrap: wrap;
+
+      .fa-arrow-right {
+        display: none;
+      }
+    }
+
     h5 {
       color: $white;
       margin: 10px;
       font-size: 2rem;
       margin-bottom: 1rem;
+      @include mobile {
+        margin-top: 2rem;
+      }
     }
 
     p {
@@ -48,12 +63,20 @@
     display: flex;
     flex-direction: column;
 
+    @include mobile {
+      flex-direction: row;
+      margin-top: 3rem;
+    }
+
     & i {
       transition: transform 1s;
       color: $white;
       border: 2px solid $rojo;
       padding: 10px;
       border-radius: 30px;
+      @include mobile {
+        margin: 1rem 1rem;
+      }
     }
     & i:hover {
       color: $rojo;
