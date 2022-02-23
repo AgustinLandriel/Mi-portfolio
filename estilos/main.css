@@ -139,18 +139,20 @@
 }
 
 .hero__redes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   position: absolute;
-  left: 55%;
-  top: 80%;
+  bottom: 10%;
+  right: 37%;
 }
 
 @media only screen and (min-width: 366px) and (max-width: 767px) {
   .hero__redes {
-    top: 63%;
-    left: 35%;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 2rem;
   }
 }
 
@@ -452,6 +454,12 @@
       -ms-flex-pack: start;
           justify-content: start;
   height: 70vh;
+}
+
+@media only screen and (min-width: 366px) and (max-width: 767px) {
+  .skills {
+    height: 75vh;
+  }
 }
 
 .skills__subtitle {

@@ -7,6 +7,10 @@
   justify-content: start;
   height: 70vh;
 
+  @include mobile {
+    height: 75vh;
+  }
+
   &__subtitle {
     align-self: center;
     font-family: "Ubuntu";

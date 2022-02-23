@@ -97,13 +97,15 @@
   }
 
   &__redes {
-    display: flex;
     position: absolute;
-    left: 55%;
-    top: 80%;
+    bottom: 10%;
+    right: 37%;
     @include mobile {
-      top: 63%;
-      left: 35%;
+      position: relative;
+      bottom: 0;
+      right: 0;
+      display: flex;
+      margin-top: 2rem;
     }
 
     i {
