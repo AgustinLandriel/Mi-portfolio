@@ -31,6 +31,10 @@
     background-color: $rojo;
     top: 75%;
     left: 42%;
+
+    @include mobile {
+      left: 23%;
+    }
   }
 
   .card-text {
@@ -49,13 +53,14 @@
       color: $rojo;
       font-family: "Ubuntu";
       text-shadow: 1px 1px 1px #222;
+      font-size: 1.8rem;
     }
   }
   .card-borde {
     background-color: #000;
     border: 2px inset $rojo;
     border-radius: 3px;
-    box-shadow: 10px 12px 7px $black;
+    box-shadow: 17px 20px 10px $black;
   }
 
   i {
