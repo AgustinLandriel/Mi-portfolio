@@ -10,6 +10,9 @@
   @include mobile {
     height: 180vh;
   }
+  @include desktop-fhd {
+    height: 120vh;
+  }
 
   &__contenedor {
     display: flex;
@@ -20,8 +23,12 @@
     font-family: "Ubuntu";
     font-size: 3rem;
     margin: 3rem;
-
     color: $white;
+
+    @include desktop-fhd {
+      font-size: 4rem;
+      margin-bottom: 4rem;
+    }
   }
 
   &__divisor {
@@ -34,6 +41,11 @@
 
     @include mobile {
       left: 23%;
+    }
+
+    @include desktop-fhd {
+      top: 70%;
+      left: 42%;
     }
   }
 

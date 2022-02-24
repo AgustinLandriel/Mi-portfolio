@@ -10,12 +10,18 @@
   @include mobile {
     height: 75vh;
   }
+  @include desktop-fhd {
+    height: 60vh;
+  }
 
   &__subtitle {
     align-self: center;
     font-family: "Ubuntu";
     font-weight: 400;
     font-size: 3rem;
+    @include desktop-fhd {
+      font-size: 3.5rem;
+    }
   }
 
   &__divisor {
@@ -36,9 +42,16 @@
       font-size: 5rem;
       margin: 0rem 1.3rem;
       transition: transform 1s;
+
       @include mobile {
         margin-bottom: 2rem;
       }
+
+      @include desktop-fhd {
+        font-size: 7rem;
+        margin-top: 4rem;
+      }
+
       &:hover {
         transform: scale(1.6);
       }
@@ -47,6 +60,11 @@
       margin-top: 1rem;
       font-size: 3rem;
       transform: transform 1s;
+
+      @include desktop-fhd {
+        font-size: 5rem;
+        margin-top: 6rem;
+      }
     }
   }
 }

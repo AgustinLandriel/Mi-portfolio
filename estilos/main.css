@@ -59,6 +59,12 @@
   }
 }
 
+@media only screen and (min-width: 1920px) {
+  .hero h6 {
+    font-size: 3rem;
+  }
+}
+
 .hero__title {
   font-family: "Ubuntu";
   color: #ffffff;
@@ -78,6 +84,12 @@
   }
 }
 
+@media only screen and (min-width: 1920px) {
+  .hero__title {
+    font-size: 5rem;
+  }
+}
+
 .hero__description {
   font-family: "Lato";
   margin-left: 7rem;
@@ -92,6 +104,12 @@
   }
 }
 
+@media only screen and (min-width: 1920px) {
+  .hero__description {
+    font-size: 2.5rem;
+  }
+}
+
 .hero__btn {
   margin-left: 10rem;
   margin-top: 2rem;
@@ -100,7 +118,7 @@
   background-color: #222;
   text-shadow: 0px 0px 1px #ffffff;
   border: 2px solid crimson;
-  padding: 10px;
+  padding: 15px;
   -webkit-box-shadow: 4px 4px 5px #000;
           box-shadow: 4px 4px 5px #000;
 }
@@ -112,11 +130,25 @@
   }
 }
 
+@media only screen and (min-width: 1920px) {
+  .hero__btn {
+    font-size: 1.3rem;
+    margin-left: 15rem;
+    margin-top: 3rem;
+  }
+}
+
 .hero__btn:hover {
   background-color: crimson;
   color: #ffffff;
   text-shadow: 3px 3px 5px #000;
   border: none;
+}
+
+@media only screen and (min-width: 1920px) {
+  .hero__btn:hover {
+    border: 1px solid #000;
+  }
 }
 
 .hero__span {
@@ -135,6 +167,13 @@
   .hero__img {
     width: 250px;
     height: 250px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .hero__img {
+    width: 400px;
+    height: 400px;
   }
 }
 
@@ -172,6 +211,12 @@
   }
 }
 
+@media only screen and (min-width: 1920px) {
+  .hero__redes i {
+    font-size: 3rem;
+  }
+}
+
 .hero__redes i:hover {
   color: #ffffff;
   -webkit-transform: scale(1.3, 1.3);
@@ -183,6 +228,12 @@
   font-weight: 400;
   text-shadow: 0px 0px 1px #000;
   font-size: 2.5rem;
+}
+
+@media only screen and (min-width: 1920px) {
+  .header h2 {
+    font-size: 3.5rem;
+  }
 }
 
 .header h2 span {
@@ -204,6 +255,13 @@
   transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
+@media only screen and (min-width: 1920px) {
+  .navbar-text {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+  }
+}
+
 .navbar-text:hover {
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
@@ -223,6 +281,12 @@
   font-weight: 300;
 }
 
+@media only screen and (min-width: 1920px) {
+  .display-3 {
+    font-size: 3.5rem;
+  }
+}
+
 .information {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -240,6 +304,12 @@
   height: 120vh;
 }
 
+@media only screen and (min-width: 1920px) {
+  .information {
+    height: 100vh;
+  }
+}
+
 @media only screen and (min-width: 366px) and (max-width: 767px) {
   .information {
     -ms-flex-wrap: wrap;
@@ -254,6 +324,12 @@
   font-family: "Ubuntu";
   font-weight: 400;
   font-size: 3rem;
+}
+
+@media only screen and (min-width: 1920px) {
+  .information__subtitle {
+    font-size: 3.5rem;
+  }
 }
 
 .information .divisor {
@@ -275,6 +351,14 @@
   }
 }
 
+@media only screen and (min-width: 1920px) {
+  .information__parrafo {
+    font-size: 2rem;
+    width: 1000px;
+    line-height: 3.5rem;
+  }
+}
+
 .information__span {
   color: #000;
 }
@@ -284,6 +368,12 @@
   font-weight: 600;
   color: crimson;
   padding: 0rem 2rem;
+}
+
+@media only screen and (min-width: 1920px) {
+  .information h3 {
+    font-size: 2.5rem;
+  }
 }
 
 .proyectos {
@@ -307,6 +397,12 @@
   }
 }
 
+@media only screen and (min-width: 1920px) {
+  .proyectos {
+    height: 120vh;
+  }
+}
+
 .proyectos__contenedor {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -324,6 +420,13 @@
   color: #ffffff;
 }
 
+@media only screen and (min-width: 1920px) {
+  .proyectos__title {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
 .proyectos__divisor {
   position: absolute;
   height: 6px;
@@ -336,6 +439,13 @@
 @media only screen and (min-width: 366px) and (max-width: 767px) {
   .proyectos__divisor {
     left: 23%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .proyectos__divisor {
+    top: 70%;
+    left: 42%;
   }
 }
 
@@ -469,6 +579,12 @@
   }
 }
 
+@media only screen and (min-width: 1920px) {
+  .skills {
+    height: 60vh;
+  }
+}
+
 .skills__subtitle {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -476,6 +592,12 @@
   font-family: "Ubuntu";
   font-weight: 400;
   font-size: 3rem;
+}
+
+@media only screen and (min-width: 1920px) {
+  .skills__subtitle {
+    font-size: 3.5rem;
+  }
 }
 
 .skills__divisor {
@@ -517,6 +639,13 @@
   }
 }
 
+@media only screen and (min-width: 1920px) {
+  .skills .conteiner i {
+    font-size: 7rem;
+    margin-top: 4rem;
+  }
+}
+
 .skills .conteiner i:hover {
   -webkit-transform: scale(1.6);
           transform: scale(1.6);
@@ -527,6 +656,13 @@
   font-size: 3rem;
   -webkit-transform: transform 1s;
           transform: transform 1s;
+}
+
+@media only screen and (min-width: 1920px) {
+  .skills .conteiner em {
+    font-size: 5rem;
+    margin-top: 6rem;
+  }
 }
 
 .footer {
@@ -556,10 +692,22 @@
   color: crimson;
 }
 
+@media only screen and (min-width: 1920px) {
+  .footer i {
+    font-size: 3rem;
+  }
+}
+
 .footer h2 {
   font-size: 3.5rem;
   color: #ffffff;
   margin-top: 2rem;
+}
+
+@media only screen and (min-width: 1920px) {
+  .footer h2 {
+    font-size: 4rem;
+  }
 }
 
 .footer__contacto {
@@ -594,11 +742,23 @@
   }
 }
 
+@media only screen and (min-width: 1920px) {
+  .footer__contacto h5 {
+    font-size: 3rem;
+  }
+}
+
 .footer__contacto p {
   color: #ffffff;
   font-size: 1.5rem;
   font-family: "Lato";
   font-weight: 600;
+}
+
+@media only screen and (min-width: 1920px) {
+  .footer__contacto p {
+    font-size: 2.3rem;
+  }
 }
 
 .footer__contacto span {
@@ -640,6 +800,12 @@
 @media only screen and (min-width: 366px) and (max-width: 767px) {
   .footer__redes i {
     margin: 1rem 1rem;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .footer__redes i {
+    font-size: 2rem;
   }
 }
 
