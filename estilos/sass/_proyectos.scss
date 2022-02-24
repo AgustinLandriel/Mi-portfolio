@@ -141,4 +141,12 @@
       }
     }
   }
+
+  // -----------CARD 2 BOOTSTRAP--------
+
+  @include desktop-hd {
+    div .card-margin-l {
+      margin-left: 8rem;
+    }
+  }
 }

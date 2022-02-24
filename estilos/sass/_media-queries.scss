@@ -10,6 +10,12 @@
   }
 }
 
+@mixin desktop-hd {
+  @media only screen and (width: 1600px) {
+    @content;
+  }
+}
+
 @mixin desktop-fhd {
   @media only screen and (min-width: 1600px) {
     @content;

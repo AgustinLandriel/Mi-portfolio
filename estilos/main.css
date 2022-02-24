@@ -618,6 +618,12 @@
   color: #222;
 }
 
+@media only screen and (width: 1600px) {
+  .proyectos div .card-margin-l {
+    margin-left: 8rem;
+  }
+}
+
 .skills {
   display: -webkit-box;
   display: -ms-flexbox;
