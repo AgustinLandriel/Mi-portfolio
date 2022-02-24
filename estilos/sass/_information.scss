@@ -14,6 +14,11 @@
 
   @include mobile {
     flex-wrap: wrap;
+    height: 100%;
+  }
+
+  @include tablet-ipad {
+    height: 50vh;
   }
 
   &__subtitle {
@@ -25,11 +30,16 @@
     @include desktop-fhd {
       font-size: 3.5rem;
     }
+
+    @include mobile {
+      margin-top: 2rem;
+    }
   }
   .divisor {
     height: 6px;
     width: 90px;
     background-color: $rojo;
+    margin-bottom: 2rem;
   }
 
   &__parrafo {

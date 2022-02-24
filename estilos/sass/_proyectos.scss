@@ -1,17 +1,20 @@
 @import "./variables";
 
 .proyectos {
-  height: 160vh;
+  height: 135vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: $black2;
 
   @include mobile {
-    height: 180vh;
+    height: 100%;
+  }
+  @include tablet-ipad {
+    height: 100%;
   }
   @include desktop-fhd {
-    height: 120vh;
+    height: 100%;
   }
 
   &__contenedor {

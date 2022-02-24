@@ -8,10 +8,14 @@
   height: 70vh;
 
   @include mobile {
-    height: 75vh;
+    height: 100%;
   }
   @include desktop-fhd {
     height: 60vh;
+  }
+
+  @include tablet-ipad {
+    height: 40vh;
   }
 
   &__subtitle {
@@ -38,6 +42,12 @@
       margin: 1rem;
       justify-content: center;
     }
+
+    @include tablet-ipad {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     i {
       font-size: 5rem;
       margin: 0rem 1.3rem;

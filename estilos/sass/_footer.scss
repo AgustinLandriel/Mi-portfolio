@@ -9,6 +9,10 @@
   @include mobile {
     flex-wrap: wrap;
   }
+  @include tablet-ipad {
+    flex-direction: column;
+    place-items: center;
+  }
 
   &__span {
     color: $rojo;
@@ -84,6 +88,10 @@
       margin-top: 3rem;
     }
 
+    @include tablet-ipad {
+      flex-direction: row;
+    }
+
     & i {
       transition: transform 1s;
       color: $white;
@@ -96,6 +104,9 @@
 
       @include desktop-fhd {
         font-size: 2rem;
+      }
+      @include tablet-ipad {
+        margin: 1rem;
       }
     }
 
