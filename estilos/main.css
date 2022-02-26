@@ -64,7 +64,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1020px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .hero {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -140,7 +140,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1020px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .hero__description {
     font-size: 2rem;
   }
@@ -202,7 +202,7 @@
   position: absolute;
   content: "";
   background-color: #222;
-  height: 100px;
+  height: 120%;
   border-left: 1px solid #222;
   right: 0;
   -webkit-animation: maquina 1.7s steps(18) infinite alternate;
@@ -224,7 +224,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1020px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .hero__img {
     width: 350px;
     height: 350px;
@@ -256,7 +256,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1020px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .hero__redes {
     position: relative;
     bottom: 0;
@@ -390,7 +390,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1020px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .information {
     height: 50vh;
   }
@@ -483,7 +483,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1020px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .proyectos {
     height: 100%;
   }
@@ -683,7 +683,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1020px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .skills {
     height: 40vh;
   }
@@ -728,7 +728,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1020px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .skills .conteiner {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -797,7 +797,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1020px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -910,7 +910,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1020px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .footer__redes {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -942,7 +942,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1020px) {
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .footer__redes i {
     margin: 1rem;
   }
