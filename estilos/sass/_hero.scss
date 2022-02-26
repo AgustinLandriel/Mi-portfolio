@@ -1,6 +1,7 @@
 @import "./variables";
 @import "./colores";
 @import "./media-queries";
+@import "./keyframes";
 
 .hero {
   display: grid;
@@ -115,6 +116,17 @@
   }
   &__span {
     color: $rojo;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      content: "";
+      background-color: $black2;
+      height: 100px;
+      border-left: 1px solid $black2;
+      right: 0;
+      animation: maquina 1.7s steps(18) infinite alternate;
+    }
   }
 
   &__img {
