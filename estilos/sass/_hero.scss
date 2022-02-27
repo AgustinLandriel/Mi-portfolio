@@ -68,8 +68,8 @@
     color: $white;
 
     @include mobile {
-      margin: 1rem;
-      width: auto;
+      margin: 0 auto;
+      width: 300px;
     }
 
     @include tablet-ipad {

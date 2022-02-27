@@ -135,8 +135,8 @@
 
 @media only screen and (min-width: 340px) and (max-width: 767px) {
   .hero__description {
-    margin: 1rem;
-    width: auto;
+    margin: 0 auto;
+    width: 300px;
   }
 }
 
