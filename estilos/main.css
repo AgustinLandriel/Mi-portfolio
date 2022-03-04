@@ -211,37 +211,37 @@
 
 .hero__img {
   width: 350px;
-  height: 350px;
-  border-radius: 20rem;
+  height: 450px;
+  border-radius: 15rem;
   -webkit-box-shadow: 10px 15px 5px #000;
           box-shadow: 10px 15px 5px #000;
 }
 
 @media only screen and (min-width: 340px) and (max-width: 767px) {
   .hero__img {
-    width: 250px;
-    height: 250px;
+    width: 270px;
+    height: 350px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   .hero__img {
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 500px;
   }
 }
 
 @media only screen and (min-width: 1600px) {
   .hero__img {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 650px;
   }
 }
 
 .hero__redes {
   position: absolute;
   bottom: 10%;
-  right: 37%;
+  right: 39%;
 }
 
 @media only screen and (min-width: 340px) and (max-width: 767px) {

@@ -131,30 +131,30 @@
 
   &__img {
     width: 350px;
-    height: 350px;
-    border-radius: 20rem;
+    height: 450px;
+    border-radius: 15rem;
     box-shadow: 10px 15px 5px $black;
 
     @include mobile {
-      width: 250px;
-      height: 250px;
-    }
-
-    @include tablet-ipad {
-      width: 350px;
+      width: 270px;
       height: 350px;
     }
 
+    @include tablet-ipad {
+      width: 380px;
+      height: 500px;
+    }
+
     @include desktop-fhd {
-      width: 400px;
-      height: 400px;
+      width: 500px;
+      height: 650px;
     }
   }
 
   &__redes {
     position: absolute;
     bottom: 10%;
-    right: 37%;
+    right: 39%;
     @include mobile {
       position: relative;
       bottom: 0;
